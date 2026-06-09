@@ -8,7 +8,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from flights import Aircraft, CurrentFlights
-from config import (
+from config.local import (
     HOST,
     PORT,
     HOME_LAT,
