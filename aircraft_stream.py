@@ -8,13 +8,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from flights import Aircraft, CurrentFlights
-from config.local import (
-    HOST,
-    PORT,
-    HOME_LAT,
-    HOME_LON,
-    SNAPSHOT_INTERVAL_SEC
-)
+from config.local import *
 
 SBS_FIELDS = {
     "message_type": 1,
